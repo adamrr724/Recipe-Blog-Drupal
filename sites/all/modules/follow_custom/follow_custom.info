@@ -1,0 +1,5 @@
+name = Follow Custom
+description = Edit Follow module to display other networks.
+package = My Modules
+core = 7.x
+files[] = follow_custom.module

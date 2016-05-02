@@ -1,0 +1,5 @@
+name = Simplify Content
+description = "simplifying content types"
+package = My Modules
+core = 7.x
+files[] = simplify_content.module

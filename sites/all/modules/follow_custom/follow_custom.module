@@ -1,0 +1,19 @@
+<?php
+
+function follow_custom_follow_networks_alter(&$networks, $uid = 0){
+    // Add a network.
+    $networks[$uid]['etsy'] = array(
+        'title' => t('Jamie\'s Etsy Shop'),
+        'domain' => 'etsy.com',
+    );
+
+    $networks[$uid]['redbubble'] = array(
+        'title' => t('Redbubble'),
+        'domain' => 'redbubble.com',
+    );
+
+    $networks[$uid]['github'] = array(
+        'title' => t('Github'),
+        'domain' => 'github.com',
+    );
+}
