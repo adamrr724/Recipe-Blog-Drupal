@@ -1,0 +1,5 @@
+name = Contact Edit
+description = "Edit the contact module to display what we want."
+package = My Modules
+core = 7.x
+files[] = contact_edit.module
